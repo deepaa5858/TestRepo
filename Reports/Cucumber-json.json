@@ -1,0 +1,238 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7638449400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open practicetestautomation",
+            "match": {
+              "location": "com.StepDefinition.S04PracticeTestAutomation.open_practicetestautomation()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-19T19:43:24.707Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2998300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MyHooks.Hooks.openbrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Test the Login functionality of Practice Test Automation Application using valid data",
+        "description": "",
+        "id": "practice-test-automation-login;test-the-login-functionality-of-practice-test-automation-application-using-valid-data",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MyHooks.Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 120124900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter valid Username as \"student\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.StepDefinition.S04PracticeTestAutomation.Enter_valid_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110661000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter valid Password as \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.StepDefinition.S04PracticeTestAutomation.enter_valid_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967984700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on submit",
+            "match": {
+              "location": "com.StepDefinition.S04PracticeTestAutomation.Click_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10919100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login page should be displayed",
+            "match": {
+              "location": "com.StepDefinition.S04PracticeTestAutomation.login_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7504463200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open practicetestautomation",
+            "match": {
+              "location": "com.StepDefinition.S04PracticeTestAutomation.open_practicetestautomation()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-19T19:43:33.717Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MyHooks.Hooks.openbrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test the Login functionality of Practice Test Automation Application using invalid data",
+        "description": "",
+        "id": "practice-test-automation-login;test-the-login-functionality-of-practice-test-automation-application-using-invalid-data",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.MyHooks.Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 173058200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter invalid username as \"deepu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deepu\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.StepDefinition.S04PracticeTestAutomation.enter_invalid_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114346100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter invalid password as \"deepu123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deepu123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.StepDefinition.S04PracticeTestAutomation.enter_invalid_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167547700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on Submit",
+            "match": {
+              "location": "com.StepDefinition.S04PracticeTestAutomation.click_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110154700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "error msg should be displayed",
+            "match": {
+              "location": "com.StepDefinition.S04PracticeTestAutomation.error_msg_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Practice Test Automation Login",
+    "description": "",
+    "id": "practice-test-automation-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/MyCucumberProject/MyCucumberProject/F04PracticeTestAutomation.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="17.257">
+    <testcase classname="Practice Test Automation Login" name="Test the Login functionality of Practice Test Automation Application using valid data" time="8.908">
+        <system-out><![CDATA[Given open practicetestautomation...........................................passed
+When Enter valid Username as "student"......................................passed
+And Enter valid Password as "Password123"...................................passed
+And Click on submit.........................................................passed
+Then login page should be displayed.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Practice Test Automation Login" name="Test the Login functionality of Practice Test Automation Application using invalid data" time="8.069">
+        <system-out><![CDATA[Given open practicetestautomation...........................................passed
+When enter invalid username as "deepu"......................................passed
+And enter invalid password as "deepu123"....................................passed
+And Click on Submit.........................................................passed
+Then error msg should be displayed..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
